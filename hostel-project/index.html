@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hostel Locater</title>
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <!-- linking swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+<body>
+    
+  <!-- HEADER / NAVBAR-->
+  <header>
+    <nav class="navbar section-content">
+      <a href="#" class="nav-logo">
+          <h2 class="logo-text">🏨Hostel locater</h2>
+      </a>
+      <ul class="nav-menu">
+        <button id="menu-close-button" class="fas fa-times"></button>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-link">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#hostels" class="nav-link">Hostels</a>
+        </li>
+        <li class="nav-item">
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a href="index1.html"  class="nav-link login-link">Login</a>
+          <!-- <a href="btnLogin-popup"  class="btnLogin-popup nav-link login-link">Login</a> -->
+        </li>
+      </ul>
+      
+      <button id="menu-open-button" class="fas fa-bars" -></button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero section -->
+    <section class="hero-section">
+        <div class="section-content">
+            <div class="hero-details">
+                <h2 class="title">Best Hostels</h2>
+                <h3 class="subtiltle">Your Home Away From Home!</h3>
+                <p class="description">Your ultimate destination for discovering affordable and comfortable accommodations </p>
+                <div class="buttons" >
+                    <a href="#hostels" class="button order-now" >View Hostels</a>
+                    <a href="#contact" class="button contact-Us">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="images/hero-section-image.jpg" alt="Hero" class="hero-image">
+            </div>
+        </div>
+    </section>
+    
+    <!-- About section -->
+    <section class="about-section" id="about">
+      <div class="section-content">
+          <div class="about-image-wrapper">
+              <img src="/images/about-image.jpg" alt="About" class="about-image">
+          </div>
+          <div class="about-details">
+              <h2 class="section-title">About Us</h2>
+              <p class="text">Our platform is designed to make finding a comfortable and convenient place to stay hassle-free. With detailed descriptions, transparent pricing, and trusted reviews, we ensure you have all the information needed to make the right choice</p>
+              <div class="social-link-list">
+                  <a href="https://www.facebook.com/profile.php?id=100026765830486" class="social-link"><i class="fa-brands fa-facebook"></i></a>
+                  <a href="https://www.instagram.com/_sameer_singh_002/" class="social-link"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a>
+              </div>
+          </div>
+          
+      </div>
+   </section>
+
+   <!-- hostels -->
+    <section class="testimonials-section" id="hostels">
+        <h2 class="section-title">Hostels</h2>
+        <div class="section-content">
+            <div class="slider-container swiper">
+                <div class="slider-wrapper">
+                    <ul class="testimonials-list swiper-wrapper">
+                        <li class="testimonial swiper-slide">
+                            <img src="images/tagore.jpg" alt="User" class="user-image">
+                            <h3 class="name">TAGORE BOYS HOSTEL</h3>
+                            <i class="feedback">Boys hostel inside sharda university campus</i>
+                            <div class="buttons">
+                                <a href="tagore.html" class="button order-now">Read More</a>
+                                
+                            </div>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="images/vivekanand.jpeg" alt="User" class="user-image">
+                            <h3 class="name">VIVEKANAND BOYS HOSTEL</h3>
+                            <i class="feedback">For FRESHER STUDENTS inside sharda university campus</i>
+                            <div class="buttons">
+                                <a href="vivekanand.html" class="button order-now">Read More</a>
+                            </div>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="images/jawahar.jpg" alt="User" class="user-image">
+                            <h3 class="name">JAWAHAR BOYS HOSTEL</h3>
+                            <i class="feedback">Boys hostel inside sharda university campus</i>
+                            <div class="buttons">
+                                <a href="jahawar.html" class="button read-more">Read More</a>
+                            </div>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="images/mandela.jpeg" alt="User" class="user-image">
+                            <h3 class="name">MANDELA BOYS HOSTEL</h3>
+                            <i class="feedback">BOYS hostel inside sharda university campus</i>
+                            <div class="buttons">
+                                <a href="#" class="button read-more">Read More</a>
+                            </div>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="images/mandela.jpeg" alt="User" class="user-image">
+                            <h3 class="name">MANDELA GIRLS HOSTEL</h3>
+                            <i class="feedback">Girls hostel inside sharda university campus</i>
+                            <div class="buttons">
+                                <a href="#" class="button read-more">Read More</a>
+                            </div>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="images/sarojni.jpeg" alt="User" class="user-image">
+                            <h3 class="name">SAROJNI GIRLS HOSTEL</h3>
+                            <i class="feedback">Girls hostel inside sharda university campus</i>
+                            <div class="buttons">
+                                <a href="#" class="button read-more">Read More</a>
+                            </div>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="images/kasturba.jpg" alt="User" class="user-image">
+                            <h3 class="name">KASTURBA GIRLS HOSTEL</h3>
+                            <i class="feedback">Girls hostel inside sharda university campus</i>
+                            <div class="buttons">
+                                <a href="#" class="button read-more">Read More</a>
+                            </div>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="images/mother-taresa.jpg" alt="User" class="user-image">
+                            <h3 class="name">MOTHER TARESA GIRLS HOSTEL</h3>
+                            <i class="feedback">Girls hostel inside sharda university campus</i>
+                            <div class="buttons">
+                                <a href="#" class="button read-more">Read More</a>
+                            </div>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="images/indira-hostel.jpg" alt="User" class="user-image">
+                            <h3 class="name">INDIRA GIRLS HOSTEL</h3>
+                            <i class="feedback">Girls hostel inside sharda university campus</i>
+                            <div class="buttons">
+                                <a href="#" class="button read-more">Read More</a>
+                            </div>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="images/nalanda.jpg" alt="User" class="user-image">
+                            <h3 class="name">NALANDA HOSTEL</h3>
+                            <i class="feedback">Near Sharda University Gate No.4</i>
+                            <div class="buttons">
+                                <a href="#" class="button read-more">Read More</a>
+                            </div>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="images/Vardhman_Hostel.jpeg" alt="User" class="user-image">
+                            <h3 class="name">VARDHMAN HOSTEL</h3>
+                            <i class="feedback">seperate boys and girls hostel for overseas student</i>
+                            <div class="buttons">
+                                <a href="#" class="button read-more">Read More</a>
+                            </div>
+                        </li>
+                        
+                        <li class="testimonial swiper-slide">
+                            <img src="images/boys-castle.jpeg" alt="User" class="user-image">
+                            <h3 class="name">BOYS CASTLE</h3>
+                            <i class="feedback">Near Sharda University Gate No.4</i>
+                            <div class="buttons">
+                                <a href="#" class="button read-more">Read More</a>
+                            </div>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="images/farm-catle.jpeg" alt="User" class="user-image">
+                            <h3 class="name">FARM CASTLE</h3>
+                            <i class="feedback">Near Sharda University Gate No.4</i>
+                            <div class="buttons">
+                                <a href="#" class="button read-more">Read More</a>
+                            </div>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="images/hmr-boys.jpeg" alt="User" class="user-image">
+                            <h3 class="name">HMR BOYS </h3>
+                            <i class="feedback">Near Sharda University Gate No.4</i>
+                            <div class="buttons">
+                                <a href="#" class="button read-more">Read More</a>
+                            </div>
+                        </li>
+                        <li class="testimonial swiper-slide">
+                            <img src="images/raghuma-boys.jpeg" alt="User" class="user-image">
+                            <h3 class="name">RAGHUMA BOYS HOSTEL</h3>
+                            <i class="feedback">Near Sharda University Gate No.4</i>
+                            <div class="buttons">
+                                <a href="#" class="button read-more">Read More</a>
+                            </div>
+                        </li>
+                        
+                    </ul>
+
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+        <div class="section-content">
+            <ul class="contact-info-list">
+                <li class="contact-info">
+                    <i class="fa-solid fa-location-crosshairs"></i>
+                    <p>Sharda University , knowledge park 3 , greater noida</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-regular fa-envelope"></i>
+                    <p>sameer02102004@gmail.com</p>
+                </li>
+                <li class="contact-info">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>7489447309</p>
+                </li>
+            </ul>
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
+                <input type="hidden" name="access_key" value="74a10d3c-6f21-431b-aae3-3f3b94d2e6dd">
+                <input type="text" name="name" placeholder="Your name" class="form-input" required>
+                <input type="email" name="name" placeholder="Your email" class="form-input" required>
+                <textarea placeholder="Your message" class="form-input" required></textarea>
+                <button class="submit-button">Submit</button>
+            </form>
+        </div>
+
+    </section>
+      
+  </main>
+  <!-- Linking swiper script -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
